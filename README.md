@@ -4,7 +4,7 @@
 
 ### Make the right call to the right whale's call
 
-**Ignition Hacks V.7** · Nova Scotia ADT
+**Ignition Hacks V.7** · August 22-23, 2026 · Awarded Honourable Mention 
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
