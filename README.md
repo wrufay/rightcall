@@ -50,7 +50,11 @@ Grounded in [Esfahanian, Zhuang, Erdol & Gerstein (2017)](https://arxiv.org/pdf/
 - **Backend** (repo root): Python, FastAPI, scikit-learn — deployed on Render
 - **Frontend** (`frontend/`): React + Vite, Mapbox GL, hand-built against a locked Figma + `STYLE.md` tokens — deployed on Vercel
 
-One repo, two deploys, talking over one HTTP call.
+## Figma screens
+Used as the design foundation for our front-end implementation.
+
+<img width="872" height="573" alt="Screenshot 2026-09-12 at 6 46 22 PM" src="https://github.com/user-attachments/assets/cc187b80-5977-4724-af2d-2842faef37ca" />
+
 
 ## API
 
@@ -102,7 +106,6 @@ cd frontend && npm install && npm run dev
 **Backend (Render):** root dir `.`, start command `uvicorn main:app --host 0.0.0.0 --port $PORT` → `narw-council.onrender.com`
 **Frontend (Vercel):** root dir `frontend` → `right-call.vercel.app`
 
-> ⚠️ Render free tier cold-starts (~30–60s) — ping `/health` before demos.
 
 ## What this doesn't do
 
